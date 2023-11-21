@@ -6,7 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { useDispatch, useSelector } from 'react-redux'
 
-const Register = () => {
+const Login = () => {
   const dispatch = useDispatch()
   const [state, setSatate] = useState({
     email: "",
@@ -111,4 +111,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Login;
